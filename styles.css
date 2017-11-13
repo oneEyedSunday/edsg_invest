@@ -1,0 +1,81 @@
+.tab-content {
+  background-color: #d7dbe2;
+}
+
+.nav-sidebar {
+    width: 100%;
+    padding: 30px 0;
+    border-right: 1px solid #ddd;
+}
+.nav-sidebar a, .navbar-sidebar a:hover, ul.nav.tabs > li {
+    color: #333;
+    background-color: red;
+    -webkit-transition: all 0.08s linear;
+    -moz-transition: all 0.08s linear;
+    -o-transition: all 0.08s linear;
+    transition: all 0.08s linear;
+}
+.nav-sidebar .active a, .navbar-sidebar .active a:hover, ul.nav.tabs > li.active {
+    cursor: default;
+    background-color: yellow;
+    color: #fff;
+}
+/*.nav-sidebar .active a:hover {
+    background-color: #E50000;
+}*/
+
+
+.nav-sidebar .text-overflow a,
+.nav-sidebar .text-overflow .media-body {
+    white-space: nowrap;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+}
+
+ul.nav.tabs > li {
+  margin: 18px 17px;
+  border: 1px solid #fff;
+}
+
+.container .text-style
+{
+  text-align: justify;
+  line-height: 23px;
+  margin: 0 13px 0 0;
+  font-size: 19px;
+}
+
+#accordion {
+  margin-top: 20px;
+}
+
+section p {
+  color: #a8a8a8;
+}
+
+.panel-heading a:hover, .panel-heading a:focus, .panel-heading a:visited  {
+  text-decoration: none;
+}
+
+section.background-text {
+  font-size: 20px;
+}
+
+h4.panel-title {
+  color: #333;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/*put an hover effect on the accordion panel-heading*/
+.panel-heading:hover {
+  background-color: #d7dbe2;
+  /*put a transition*/
+}
+
+
+div.panel-heading.active-panel {
+  background-color: #f9d008;
+  color: #fff;
+}
