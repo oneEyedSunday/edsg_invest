@@ -106,18 +106,18 @@ div.panel-heading.active-panel {
 }
 
 .mySlick {
-  background-color: #ccc;
+  background-color: #ffffff;
 }
 
 .slick-arrow {
-  background-color: #fff;
+  background-color: #ccc;
   height: 50px;
   width: 30px;
 }
 .slick-prev, .slick-next {
   display: block;
   color: #000000;
-  background-color: inherit;
+  background-color: #ccc;
   border: 1px solid #ccc;
   border-radius: 0 3px 3px 0;
 }
@@ -127,40 +127,43 @@ section.videos {
   margin: auto;
 }
 
-.longfix {
-  width: 304px;
-}
-
-.sbvideo {
+.video-block {
+  display: block;
+  margin: 0 10px;
+  box-sizing: border-box;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.2);
   background-color: #ffffff;
-  height: 200px;
-  margin-left: 15px;
-  margin-right: 15px;
 }
 
-/*.sbthumbnail {
-  width: 100%;
-  float: left;
-  clear: both;
+.thumbnail-block {
+  background-color: orange;
+  height: 160px;
   position: relative;
-}*/
-
-.sbthumbnail {
-	width:100%;
-	/*float:left;*/
-	clear:both;
-	position:relative;
-}
-.sbthumbnail img {
-	width:100%;
-	/*float:left;*/
-	clear:both;
-	position:relative;
-	border-radius:0;
-	box-shadow:none;
 }
 
-.sbplay {
+.meta {
+  height: 50px;
+  background-color: #ffffff;
+}
+
+.thumbnail-block a img {
+  height: 100%;
+  width: 100%;
+}
+
+.content-block {
+  background-color: #ffffff;
+  height: 75px;
+  padding: 0 10px 10px 10px;
+}
+
+.content-block a {
+  font-size: 15px;
+  font-size: 700;
+  color: #167ac6;
+}
+
+.play-bg {
   position: absolute;
   top: 0;
   left: 0;
@@ -168,14 +171,4 @@ section.videos {
   height: 100%;
   z-index: 1;
   background: url(img/play.png) no-repeat center center;
-}
-
-.sbclear {
-  content: '';
-  clear: both;
-}
-
-.sbcontent {
-  background-color: #ffffff;
-  color: blue;
 }
